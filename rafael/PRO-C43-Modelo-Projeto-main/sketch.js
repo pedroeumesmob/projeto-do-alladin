@@ -6,7 +6,7 @@ function preload() {
   
   bg= loadImage("aladdin_cave.jpg")
   //carregar imagem para o plano de fundo do tesouro
-  
+  bg2 = loadImage("treasure.jpg")
 }
 
 function setup() {
@@ -37,4 +37,5 @@ function draw() {
   }
 
   drawSprites()
+  
 }

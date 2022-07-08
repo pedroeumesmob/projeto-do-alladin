@@ -48,18 +48,12 @@ class Security {
         });
 //adicione código para o que acontece quando o terceiro botão for pressionado
         this.button3.mousePressed(() => {
-            if(system.authenticate(accessCode2,this.access3.value())){
+            if(system.authenticate(accessCode3,this.access3.value())){
                 this.button3.hide();
                 this.access3.hide();
                 score++;
     }
 });
-        if (score === 3) {
-            clear();
-            background(bg2);
-            fill("white");
-            textSize(40);
-            text("tesouro encontrado", 250, 200)
-        }    
+        
     }
 }
